@@ -27,13 +27,9 @@ public class Condition {
 		default :
 			price = 600;
 		}
-		
-		
 		if(carkind == "고속버스")
 		{
-			System.out.println(+distance/10);
 			price += 300 * (distance/10);
-
 		}
 		else
 		{
@@ -41,5 +37,4 @@ public class Condition {
 		}
 		System.out.println("통행료 :  "+price);
 	}
-
 }
