@@ -22,9 +22,9 @@ public class CarTest {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			Car2 car1 = new Car2("현대자동차","검정색","제네시스",225,50000000);
-			Car2 car2 = new Car2("기아자동차","흰색","k7",246,40000000);
-			Car2 car3 = new Car2("삼성자동차","회색","SM7",200,38000000);
+			Car3 car1 = new Car3("현대자동차","제네시스","검정색",225,50000000);
+			Car3 car2 = new Car3("기아자동차","k7","흰색",246);
+			Car3 car3 = new Car3("삼성자동차","SM7","회색");
 			System.out.println("<<자동차 목록>>");
 			System.out.println("제조사명 : " +car1.getCompany());
 			System.out.println("모델명 : " +car1.getModel());
