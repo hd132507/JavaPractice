@@ -31,7 +31,7 @@ public class Question {
 			System.out.println("정답입니다");
 		else
 			System.out.println("틀렸습니다!! TT");
-		System.out.println("원과 박스 사이에서 박스의 모서리에 투영선을 그었을 때 이 박스의 투영선이 바깥쪽 영역의 명칭은?");
+		System.out.println("원과 박스 간의 충돌 판정시 박스의 모서리에 투영선을 그었을 때 이 박스의 투영선이 바깥쪽 영역의 명칭은?");
 		answer = scanner.nextLine();
 		if(answer.equals("보로노이영역"))
 			System.out.println("정답입니다");
@@ -41,7 +41,7 @@ public class Question {
 		System.out.println("운동량 p를 계산하는 공식은?");
 		answer = scanner.nextLine();
 		if(answer.equals("mv"))
-		System.out.println("정답입니다");
+		System.out.println("정답입니다(m은 질량 v는 속도)");
 		else
 			System.out.println("틀렸습니다 TT");
 		
