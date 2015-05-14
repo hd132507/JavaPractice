@@ -39,6 +39,8 @@ public class Score {
 		.append("영어 점수 : "+eng+"점\n")
 		.append("총점 : "+sum+"점\n")
 		.append("평균 : "+String.format("%.1f", avg)+"점");
+		System.out.println("");
+		System.out.println("<<점수 출력>>");
 		System.out.println(subject);
 	}
 
