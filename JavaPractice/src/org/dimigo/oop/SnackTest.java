@@ -32,8 +32,8 @@ public class SnackTest {
 			System.out.println("");
 		}
 		
-		System.out.println("총 구매 금액 : "+String.format("%,d",sum));
-		// TODO Auto-generated method stub
+		System.out.println("총 구매 금액 : "+String.format("%,d",sum)+"원");
+		// TODO Auto-generated method stub1
 
 	}
 
