@@ -20,17 +20,18 @@ package org.dimigo.oop;
  * @param args
  */
 
-
+//간식 클래스
 public class Snack {
 
-	private String name;
-	private String company;
-	private int price;
-	private int number;
-	public Snack()
+	private String name; //이름
+	private String company; //회사
+	private int price; // 가격
+	private int number; //갯수
+	public Snack()//기본 생성자
 	{
 		
 	}
+	//생성자
 	public Snack(String name, String company, int price, int number) {
 		super();
 		this.name = name;
