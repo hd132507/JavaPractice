@@ -18,10 +18,7 @@ package org.dimigo.inheritance;
 public class Figure {
 	private int centerX;
 	private int centerY;
-	Figure(){
-		centerX = 0;
-		centerY = 0;
-	}
+
 	Figure(int centerX, int centerY)
 	{
 		this.centerX = centerX;
