@@ -20,6 +20,7 @@ public class Circle extends Figure {
 	
 	public Circle(int radius)
 	{
+		super(0,0);
 		this.radius = radius;
 	}
 	
