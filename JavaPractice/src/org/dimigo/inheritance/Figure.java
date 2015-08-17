@@ -24,8 +24,6 @@ public class Figure {
 	}
 	Figure(int centerX, int centerY)
 	{
-		centerX = 0;
-		centerY = 0;
 		this.centerX = centerX;
 		this.centerY = centerY;
 	}
