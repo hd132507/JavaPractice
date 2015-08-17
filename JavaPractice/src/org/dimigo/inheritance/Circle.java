@@ -33,4 +33,9 @@ public class Circle extends Figure {
 	{
 		return radius * radius*Math.PI;
 	}
+	protected void printCenter()
+	{
+		System.out.printf("원 ");
+		super.printCenter();
+	}
 }

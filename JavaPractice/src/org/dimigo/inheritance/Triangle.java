@@ -37,4 +37,10 @@ public class Triangle extends Figure {
 	{
 		return height * width / 2.0;
 	}
+	
+	protected void printCenter()
+	{
+		System.out.printf("삼각형 ");
+		super.printCenter();
+	}
 }
