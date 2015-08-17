@@ -22,6 +22,12 @@ public class PiggyBank {
 		balance+= amount;
 		System.out.println(member.getMemberName()+" " + amount+" 원 넣음");
 	}
+	
+	public static void stealMoney(FamilyMember member, int amount)
+	{
+		System.out.println(member.getMemberName()+"의 돈"+amount+"원을 훔칩니다");
+		balance -= amount;
+	}
 	public static void printBalance()
 	{
 		System.out.println("돼지저금통 총 금액 : "+balance+"원");
