@@ -21,6 +21,7 @@ public class Rectangle extends Figure {
 	
 	public Rectangle(int width, int height)
 	{
+		super(0,0);
 		this.width = width;
 		this.height = height;
 	}
