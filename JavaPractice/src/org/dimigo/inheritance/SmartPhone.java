@@ -47,16 +47,16 @@ public class SmartPhone {
 		System.out.println(" 페이로 결재합니다.");
 	}
 	
-	public void useSpecialFunction(SmartPhone phone)
+	public void useSpecialFunction()
 	{
-		if(phone instanceof iPhone)
+		if(this instanceof iPhone)
 		{
-			((iPhone) phone).useAirDrop();
+			((iPhone) this).useAirDrop();
 		}
 		
-		if(phone instanceof Galaxy)
+		if(this instanceof Galaxy)
 		{
-			((Galaxy)phone).useWirelessCharging();
+			((Galaxy)this).useWirelessCharging();
 		}
 	}
 	
