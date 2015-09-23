@@ -45,8 +45,9 @@ public class MelonChart {
 			int number = 1;
 			for(Music music: list)
 			{
-				System.out.printf("Music[%d. title = %s, singer = %s]\n",number,music.getTitle(),music.getSinger());
+				System.out.printf(music.toString());
 				number+=1;
+				System.out.println("");
 			}
 		}
 	}
