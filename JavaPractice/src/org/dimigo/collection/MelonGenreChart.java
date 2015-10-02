@@ -40,17 +40,16 @@ public class MelonGenreChart {
 			
 			System.out.println("----<<멜론 장르별 차트>>----");
 			printMap(music);
-			
+			System.out.println("----<<발라드 3위 곡 변경>>----");
 			ballad.set(2, new Music("지우고 지워도","차수정"));
 			printMap(music);
-			
+			System.out.println("----<<발라드 1위 곡 삭제>>----");
 			ballad.remove(0);
 			printMap(music);
 			
 			System.out.println("----<<전체 리스트 삭제>>----");
 			music.clear();
 			ballad.clear();
-			music.clear();
 			
 	}
 	public static void printMap(Map<String,List<Music>> map)
