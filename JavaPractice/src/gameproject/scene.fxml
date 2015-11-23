@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button alignment="CENTER" layoutX="350.0" layoutY="511.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="400.0" text="도움말" textAlignment="CENTER">
+         <font>
+            <Font name="NanumBarunGothic" size="30.0" />
+         </font></Button>
+      <Button alignment="CENTER" layoutX="350.0" layoutY="201.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="400.0" text="게임시작" textAlignment="CENTER">
+         <font>
+            <Font name="NanumBarunGothic" size="30.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="350.0" layoutY="691.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="400.0" text="게임종료" textAlignment="CENTER">
+         <font>
+            <Font name="NanumBarunGothic" size="30.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="350.0" layoutY="356.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="400.0" text="강화" textAlignment="CENTER">
+         <font>
+            <Font name="NanumBarunGothic" size="30.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="274.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Public/Pictures/Sample%20Pictures/sun%20.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
